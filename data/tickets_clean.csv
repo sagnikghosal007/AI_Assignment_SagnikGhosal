@@ -1,0 +1,150 @@
+ticket_id,ticket_description,category,priority,status,clean_description
+T001,The portal is not responsive and keeps hanging,Performance,Medium,In Progress,the portal is not responsive and keeps hanging
+T002,Payment page shows error and does not process the request,Application Error,High,Open,payment page shows error and does not process the request
+T003,Unable to update the record because the app returns an error,Application Error,Low,In Progress,unable to update the record because the app returns an error
+T004,High latency while using the application today,Performance,Medium,Open,high latency while using the application today
+T005,The report totals do not match the dashboard figures,Report,Medium,Closed,the report totals do not match the dashboard figures
+T006,I want to add a secondary email to my account,Account Update,Low,Open,i want to add a secondary email to my account
+T007,The app is sluggish and unresponsive,Performance,High,Open,the app is sluggish and unresponsive
+T008,Search results are taking forever to show up,Performance,Low,In Progress,search results are taking forever to show up
+T009,Need a report of all open tickets by department,Report,Medium,Closed,need a report of all open tickets by department
+T010,Password reset email is not arriving in my inbox,Login Issue,High,Open,password reset email is not arriving in my inbox
+T011,Single sign on is failing for my user,Login Issue,Unknown,Closed,single sign on is failing for my user
+T012,Need monthly sales report,Report,Low,Closed,need monthly sales report
+T013,Please remove my old phone number and add the new one,Account Update,Low,Closed,please remove my old phone number and add the new one
+T014,The software is working very slowly on my laptop,Performance,High,In Progress,the software is working very slowly on my laptop
+T015,The application is taking too long to load,Performance,High,In Progress,the application is taking too long to load
+T016,Everything freezes for a few seconds after every click,Performance,Medium,Closed,everything freezes for a few seconds after every click
+T017,My account is locked after too many failed login attempts,Login Issue,Medium,Closed,my account is locked after too many failed login attempts
+T018,I want to schedule a weekly report to be emailed to me,Report,Low,In Progress,i want to schedule a weekly report to be emailed to me
+T019,Cannot access my account because the verification code never comes,Login Issue,Medium,Closed,cannot access my account because the verification code never comes
+T020,Forgot my username and need help to log in,Login Issue,High,In Progress,forgot my username and need help to log in
+T021,The application is showing an error while saving data,Application Error,Low,Closed,the application is showing an error while saving data
+T022,Generate a report of sales by customer for this quarter,Report,High,Closed,generate a report of sales by customer for this quarter
+T023,I need a report of all tickets closed last week,Report,High,Open,i need a report of all tickets closed last week
+T024,I need a custom report filtered by region,Report,Medium,Closed,i need a custom report filtered by region
+T025,It takes ages to switch between tabs in the application,Performance,High,Closed,it takes ages to switch between tabs in the application
+T026,The application is very slow today,Performance,High,Closed,the application is very slow today
+T027,The checkout page fails with a server error,Application Error,High,Closed,the checkout page fails with a server error
+T028,I need to correct my tax id on the account,Account Update,Low,In Progress,i need to correct my tax id on the account
+T029,Edit my profile picture and job title,Account Update,High,Closed,edit my profile picture and job title
+T030,Can you add a new column to the monthly report,Report,Medium,Closed,can you add a new column to the monthly report
+T031,Cannot log in to the mobile app,Login Issue,High,Open,cannot log in to the mobile app
+T032,The export button gives an error message,Application Error,Low,Closed,the export button gives an error message
+T033,I want to upgrade my subscription plan,Account Update,Low,In Progress,i want to upgrade my subscription plan
+T034,How do I download the attendance report,Report,Low,Closed,how do i download the attendance report
+T035,Website is very sluggish during peak hours,Performance,High,Open,website is very sluggish during peak hours
+T036,I need to save the report as a PDF file,Report,Low,Open,i need to save the report as a pdf file
+T037,I am getting a database connection error in the application,Application Error,Medium,Open,i am getting a database connection error in the application
+T038,"Please unlock my account, I am unable to access the system",Login Issue,High,Open,please unlock my account i am unable to access the system
+T039,Need to add a new phone number to my profile,Account Update,Medium,Open,need to add a new phone number to my profile
+T040,Error while attaching a document to the ticket,Application Error,High,Open,error while attaching a document to the ticket
+T041,Sign in button does nothing when I enter my credentials,Login Issue,Low,Open,sign in button does nothing when i enter my credentials
+T042,System performance is poor and delays my work,Performance,High,Open,system performance is poor and delays my work
+T043,The app has become much slower after the last update,Performance,Medium,In Progress,the app has become much slower after the last update
+T044,It says my account is disabled when I try to login,Login Issue,Medium,Closed,it says my account is disabled when i try to login
+T045,Please provide the list of pending invoices as a report,Report,Medium,Open,please provide the list of pending invoices as a report
+T046,Saving records takes several minutes,Performance,Unknown,Open,saving records takes several minutes
+T047,Request for a customer growth report for the last year,Report,Medium,In Progress,request for a customer growth report for the last year
+T048,Home page loads very slowly,Performance,Medium,Open,home page loads very slowly
+T049,I get a failed to load data error on the customer page,Application Error,High,In Progress,i get a failed to load data error on the customer page
+T050,Requesting the profit and loss report for last quarter,Report,Medium,Closed,requesting the profit and loss report for last quarter
+T051,Need an annual performance summary report for my team,Report,High,Closed,need an annual performance summary report for my team
+T052,Unable to authenticate with my email and password,Login Issue,Medium,Closed,unable to authenticate with my email and password
+T053,The system throws an error when I try to delete an entry,Application Error,Medium,Closed,the system throws an error when i try to delete an entry
+T054,Login page keeps redirecting me back to the sign in screen,Login Issue,Medium,Closed,login page keeps redirecting me back to the sign in screen
+T055,The form crashes with an error whenever I add an attachment,Application Error,Medium,Open,the form crashes with an error whenever i add an attachment
+T056,Please change the language setting on my profile,Account Update,Low,Closed,please change the language setting on my profile
+T057,I want to update my communication preferences,Account Update,Low,Closed,i want to update my communication preferences
+T058,I need help recovering my login details,Login Issue,High,Open,i need help recovering my login details
+T059,System is lagging when I open large files,Performance,High,Open,system is lagging when i open large files
+T060,I moved to a new city and need to update my address,Account Update,Medium,In Progress,i moved to a new city and need to update my address
+T061,Need the year end financial report,Report,Medium,Open,need the year end financial report
+T062,My account got logged out and now I cannot sign in again,Login Issue,Medium,Closed,my account got logged out and now i cannot sign in again
+T063,My new password is not being accepted,Login Issue,High,Open,my new password is not being accepted
+T064,Can you change the account holder name,Account Update,Medium,In Progress,can you change the account holder name
+T065,I forgot my password and cannot login,Login Issue,Medium,Open,i forgot my password and cannot login
+T066,Where can I find the daily sales summary report,Report,Medium,Open,where can i find the daily sales summary report
+T067,I keep getting invalid credentials even though my password is correct,Login Issue,High,Closed,i keep getting invalid credentials even though my password is correct
+T068,The system is slow when many users are online,Performance,Medium,In Progress,the system is slow when many users are online
+T069,How can I update my date of birth in my account,Account Update,Medium,Open,how can i update my date of birth in my account
+T070,Getting a timeout error message while submitting the form,Application Error,Low,In Progress,getting a timeout error message while submitting the form
+T071,I need a data report for the audit team,Report,High,Closed,i need a data report for the audit team
+T072,The scheduled report did not arrive this week,Report,Low,Open,the scheduled report did not arrive this week
+T073,I would like a report showing the number of orders per product,Report,Low,Closed,i would like a report showing the number of orders per product
+T074,The application displays a blank white screen with an error,Application Error,Medium,Open,the application displays a blank white screen with an error
+T075,Need to change the primary contact person on the account,Account Update,Medium,Open,need to change the primary contact person on the account
+T077,Please close my old profile and update my account information,Account Update,Low,Closed,please close my old profile and update my account information
+T078,How do I change the email linked to my account,Account Update,Medium,Closed,how do i change the email linked to my account
+T079,I want to see the trend report for the past six months,Report,Medium,In Progress,i want to see the trend report for the past six months
+T080,Please generate an expense report for October,Report,Medium,Open,please generate an expense report for october
+T081,Everything is running extremely slow since morning,Performance,High,Closed,everything is running extremely slow since morning
+T082,Error message appears when I try to upload a file,Application Error,High,Open,error message appears when i try to upload a file
+T083,Password reset is not working,Login Issue,Medium,Closed,password reset is not working
+T084,Kindly update my company name in the profile,Account Update,Medium,In Progress,kindly update my company name in the profile
+T085,Our team is facing slow performance in the system all day,Performance,High,Open,our team is facing slow performance in the system all day
+T086,Please share the inventory report for this quarter,Report,High,Closed,please share the inventory report for this quarter
+T087,Please modify my registered email id,Account Update,High,Open,please modify my registered email id
+T088,The report is showing wrong numbers for last month,Report,Medium,Open,the report is showing wrong numbers for last month
+T089,Could you help me create a new report template,Report,Low,Open,could you help me create a new report template
+T090,I want to change my account username,Account Update,Low,Open,i want to change my account username
+T091,I want to change the name on my profile,Account Update,Medium,Unknown,i want to change the name on my profile
+T092,I did not receive the OTP to log into my account,Login Issue,High,Closed,i did not receive the otp to log into my account
+T093,The page shows something went wrong and nothing loads,Application Error,High,In Progress,the page shows something went wrong and nothing loads
+T094,The pages take too long to load,Performance,High,Closed,the pages take too long to load
+T095,Bug in the application: clicking save causes an error popup,Application Error,Medium,Closed,bug in the application clicking save causes an error popup
+T096,Login keeps failing on Chrome browser,Login Issue,Medium,Open,login keeps failing on chrome browser
+T097,Please send me the stock level report,Report,Medium,Open,please send me the stock level report
+T098,The app is taking too long to respond,Performance,High,Closed,the app is taking too long to respond
+T099,Opening the customer list is painfully slow,Performance,Medium,Closed,opening the customer list is painfully slow
+T100,The login screen shows incorrect username or password,Login Issue,High,Open,the login screen shows incorrect username or password
+T101,Screen keeps lagging while I scroll through records,Performance,High,Open,screen keeps lagging while i scroll through records
+T102,Application crashed and I lost my unsaved work,Application Error,High,Open,application crashed and i lost my unsaved work
+T103,Application error occurred while sending email notification,Application Error,High,Closed,application error occurred while sending email notification
+T104,I cannot get past the login page,Login Issue,High,Open,i cannot get past the login page
+T105,Unable to login using my company email id,Login Issue,High,Closed,unable to login using my company email id
+T106,Response time of the system has become really bad,Performance,Low,In Progress,response time of the system has become really bad
+T107,The reset password link says it has expired,Login Issue,High,Open,the reset password link says it has expired
+T108,The software freezes and then shows a fatal error,Application Error,Low,Closed,the software freezes and then shows a fatal error
+T109,I am locked out of my account since this morning,Login Issue,High,Open,i am locked out of my account since this morning
+T110,Kindly generate the weekly progress report,Report,Medium,Closed,kindly generate the weekly progress report
+T111,Application is very slow,Performance,Medium,In Progress,application is very slow
+T112,The system rejects my password every time I try to sign in,Login Issue,Medium,Open,the system rejects my password every time i try to sign in
+T113,Application gives error while saving,Application Error,High,Open,application gives error while saving
+T114,I get a 500 internal server error when I submit the form,Application Error,Medium,Closed,i get a 500 internal server error when i submit the form
+T115,Please update my contact details,Account Update,Medium,Open,please update my contact details
+T116,The dashboard takes more than a minute to load,Performance,Medium,Open,the dashboard takes more than a minute to load
+T117,Page loading time has increased a lot this week,Performance,Medium,Open,page loading time has increased a lot this week
+T118,How can I print the monthly summary report,Report,Low,Closed,how can i print the monthly summary report
+T119,Need to update my bank details for refunds,Account Update,Medium,Open,need to update my bank details for refunds
+T120,The application stopped working after the latest update,Application Error,High,Closed,the application stopped working after the latest update
+T121,Please update my address in the customer record,Account Update,Low,Unknown,please update my address in the customer record
+T122,"My name is spelled wrong in my profile, please correct it",Account Update,Low,In Progress,my name is spelled wrong in my profile please correct it
+T123,An unknown error occurred while creating a new record,Application Error,High,Open,an unknown error occurred while creating a new record
+T124,Change my designation in the account details,Account Update,Low,Open,change my designation in the account details
+T125,Application speed is too slow to do any work,Performance,Medium,Open,application speed is too slow to do any work
+T126,I get an authentication failed message on the login screen,Login Issue,High,Open,i get an authentication failed message on the login screen
+T127,Unable to sign in to the portal with my username,Login Issue,Medium,Open,unable to sign in to the portal with my username
+T128,Update my shipping address for future orders,Account Update,Medium,Closed,update my shipping address for future orders
+T129,I see a null pointer error on the order screen,Application Error,High,Closed,i see a null pointer error on the order screen
+T130,Data is not getting saved and an error pops up,Application Error,Medium,In Progress,data is not getting saved and an error pops up
+T131,Please help me generate my monthly sales report,Report,Low,Closed,please help me generate my monthly sales report
+T132,Getting error code 404 when opening the invoice page,Application Error,High,Open,getting error code 404 when opening the invoice page
+T133,I would like to change my notification preferences,Account Update,Medium,In Progress,i would like to change my notification preferences
+T134,I need to change my registered mobile number,Account Update,Low,Closed,i need to change my registered mobile number
+T135,Security question for password recovery is not accepting my answer,Login Issue,High,In Progress,security question for password recovery is not accepting my answer
+T136,Can you send me the quarterly revenue report,Report,High,In Progress,can you send me the quarterly revenue report
+T137,Error occurs when I try to edit my saved record,Application Error,High,Closed,error occurs when i try to edit my saved record
+T138,Please update my email address on my account,Account Update,Low,Open,please update my email address on my account
+T139,Menu options take a long time to open,Performance,High,Closed,menu options take a long time to open
+T140,Need to update my billing address,Account Update,Low,Open,need to update my billing address
+T141,Request a report on employee leave balances,Report,Medium,Closed,request a report on employee leave balances
+T142,My login is not working after I changed my password,Login Issue,Medium,Closed,my login is not working after i changed my password
+T143,The app crashes whenever I click on the dashboard,Application Error,Medium,Closed,the app crashes whenever i click on the dashboard
+T144,I got a new number and want it registered with my account,Account Update,Low,Closed,i got a new number and want it registered with my account
+T145,The submit button throws an unexpected exception,Application Error,Medium,Open,the submit button throws an unexpected exception
+T146,Upload is extremely slow on the platform,Performance,Medium,Open,upload is extremely slow on the platform
+T147,Please change my registered phone number,Account Update,Medium,Closed,please change my registered phone number
+T148,Two factor authentication code is not working,Login Issue,Medium,Open,two factor authentication code is not working
+T149,Video calls in the tool are laggy and slow,Performance,High,Closed,video calls in the tool are laggy and slow
+T150,App closes suddenly when I open the settings page,Application Error,Low,Closed,app closes suddenly when i open the settings page

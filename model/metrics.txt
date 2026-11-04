@@ -1,0 +1,30 @@
+Training tickets: 119 | Testing tickets: 30
+
+Model comparison (5-fold CV on training data):
+  Naive Bayes          mean accuracy = 0.883
+  Logistic Regression  mean accuracy = 0.891
+
+Accuracy : 0.967
+Precision: 0.971 (weighted)
+Recall   : 0.967 (weighted)
+F1 score : 0.966 (weighted)
+
+                   precision    recall  f1-score   support
+
+   Account Update       1.00      1.00      1.00         6
+Application Error       1.00      0.83      0.91         6
+      Login Issue       1.00      1.00      1.00         6
+      Performance       0.86      1.00      0.92         6
+           Report       1.00      1.00      1.00         6
+
+         accuracy                           0.97        30
+        macro avg       0.97      0.97      0.97        30
+     weighted avg       0.97      0.97      0.97        30
+
+Confusion matrix (rows = actual, columns = predicted):
+Labels: ['Account Update', 'Application Error', 'Login Issue', 'Performance', 'Report']
+[[6 0 0 0 0]
+ [0 5 0 1 0]
+ [0 0 6 0 0]
+ [0 0 0 6 0]
+ [0 0 0 0 6]]
