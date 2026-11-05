@@ -26,17 +26,16 @@ MODEL_PATH = ROOT / "model" / "ticket_classifier.joblib"
 METRICS_PATH = ROOT / "model" / "metrics.txt"
 CM_PATH = ROOT / "screenshots" / "confusion_matrix.png"
 
-# ------------------------------------------------------------------ 1. load
 df = pd.read_csv(CLEAN_PATH)
 X = df["clean_description"]   # input  (what the model reads)
 y = df["category"]            # output (what the model must predict)
 
-# ------------------------------------------------------------------ 2. split 80/20
+
 X_train, X_test, y_train, y_test = train_test_split(
     X, y,
-    test_size=0.20,      # 20% kept aside for testing
-    random_state=42,     # makes the split repeatable
-    stratify=y,          # every category appears in both train and test in equal proportion
+    test_size=0.20,      
+    random_state=42,    
+    stratify=y,         
 )
 print(f"Training tickets: {len(X_train)} | Testing tickets: {len(X_test)}")
 
@@ -49,7 +48,7 @@ def make_pipeline(classifier):
     ])
 
 
-# ------------------------------------------------------------------ 3. compare models
+
 # 5-fold cross-validation on the TRAINING data only (the test set stays untouched)
 candidates = {
     "Naive Bayes":         make_pipeline(MultinomialNB()),
@@ -63,11 +62,10 @@ for name, pipe in candidates.items():
     print(line)
     comparison_lines.append(line)
 
-# ------------------------------------------------------------------ 4. train final model
 model = make_pipeline(LogisticRegression(max_iter=1000))
 model.fit(X_train, y_train)
 
-# ------------------------------------------------------------------ 5. evaluate on test data
+
 y_pred = model.predict(X_test)
 
 accuracy = accuracy_score(y_test, y_pred)
@@ -105,7 +103,7 @@ plt.tight_layout()
 plt.savefig(CM_PATH, dpi=150)
 plt.close()
 
-# ------------------------------------------------------------------ 7. save model + metrics
+
 MODEL_PATH.parent.mkdir(exist_ok=True)
 CM_PATH.parent.mkdir(exist_ok=True)
 joblib.dump(model, MODEL_PATH)
