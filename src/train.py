@@ -1,13 +1,7 @@
 """
-train.py  (Task 3 + Task 4 - Model, Training and Testing)
----------------------------------------------------------
+
 Pipeline:   ticket description -> TF-IDF numbers -> Logistic Regression -> category
 
-Run (after preprocessing.py):  python src/train.py
-Saves:
-    model/ticket_classifier.joblib      (the trained pipeline)
-    screenshots/confusion_matrix.png
-    model/metrics.txt                   (results to copy into your report)
 """
 
 from pathlib import Path
